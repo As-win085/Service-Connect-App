@@ -36,7 +36,7 @@ class Banner extends Component {
     const baseSegmentClasses = 'flex-1 md:py-2 py-1 text-center transition-colors duration-200 ease-in-out font-semibold text-lg focus:outline-none text-sm';
 
     return (
-        <div className="md:mx-auto md:m-7 mx-8 flex bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50 max-w-lg overflow-hidden border-2 border-black-700 dark:border-black-700">
+        <div className="md:mx-auto md:m-4 mx-8 flex bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50 max-w-lg overflow-hidden border-2 border-black-700 dark:border-black-700">
           {this.segments.map((segment, index) => (
             <button
               key={segment.value}

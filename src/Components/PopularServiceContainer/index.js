@@ -13,7 +13,7 @@ const serviceList = [
         reviews: 7638
     },
     {
-        id: 1,
+        id: 2,
         service: "Plumbing", 
         serviceDescription: "Complete Residential Plumbing", 
         rate: "₹100-200", 
@@ -21,7 +21,23 @@ const serviceList = [
         reviews: 7638
     },
     {
-        id: 1,
+        id: 3,
+        service: "Plumbing", 
+        serviceDescription: "Complete Residential Plumbing", 
+        rate: "₹100-200", 
+        rating: "4.2",
+        reviews: 7638
+    },
+    {
+        id: 4,
+        service: "Plumbing", 
+        serviceDescription: "Complete Residential Plumbing", 
+        rate: "₹100-200", 
+        rating: "4.2",
+        reviews: 7638
+    },
+    {
+        id: 5,
         service: "Plumbing", 
         serviceDescription: "Complete Residential Plumbing", 
         rate: "₹100-200", 

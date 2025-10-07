@@ -3,7 +3,7 @@ import "./index.css"
 const ServiceCard = (props) => {
     const { service, serviceDescription, rate, rating,reviews } = props
     return (
-        <div className="rounded-3xl min-w-64">
+        <div className="rounded-3xl w-64 md:w-72 xl:w-96">
             <div className="bg-black h-20 rounded-t-3xl mb-2">
             </div>
             <div className="flex justify-between">
