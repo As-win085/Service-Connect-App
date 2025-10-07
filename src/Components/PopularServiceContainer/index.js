@@ -48,12 +48,12 @@ const serviceList = [
 
 const PopularServiceContainer = () => {
     return (
-        <div class="m-2">
+        <div class="mx-6 md:mx-10 md:my-4">
             <HeadingAndSeeAll heading="Popular Services" />
-            <div className="flex m-2 overflow-auto">
+            <div className="flex my-4 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                 <ServicesContainer />
             </div>
-            <div class="flex overflow-auto gap-5 mx-2">
+            <div class="flex overflow-auto gap-5 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                 {
                     serviceList.map(each => <ServiceCard service = {each.service} serviceDescription = {each.serviceDescription} rate = {each.rate} rating = {each.rating} reviews = {each.reviews} />)
                 }
