@@ -48,8 +48,11 @@ const serviceList = [
 
 const PopularServiceContainer = () => {
     return (
-        <div class="mx-6 md:mx-10 md:my-4">
-            <HeadingAndSeeAll heading="Popular Services" />
+        <div class="ml-6 md:mx-10 md:my-4">
+            <div className="mr-8">
+                <HeadingAndSeeAll heading="Popular Services" />
+            </div>
+            
             <div className="flex my-4 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                 <ServicesContainer />
             </div>

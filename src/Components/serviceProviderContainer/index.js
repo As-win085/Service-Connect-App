@@ -12,7 +12,7 @@ const ServiceProviderContainer = () => {
             <div>
                 <HeadingAndSeeAll heading="Top Service Providers" />
             </div>
-            <div className="flex gap-6 overflow-auto  [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden mb-16 md:mb-36">
+            <div className="flex gap-5 overflow-auto  [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden mb-16 md:mb-36">
                 {
                     providersList.map(each => <ServiceProvider name={each}/>)
                 }

@@ -1,11 +1,11 @@
 import './App.css';
-import U11_Home from './pages/U11_Home';
+import MainPageLogo from './Components/MainPageLogo';
 
 
 
 function App() {
   return (
-    <U11_Home />
+    <MainPageLogo />
   );
 }
 
