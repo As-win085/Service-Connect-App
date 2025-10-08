@@ -1,14 +1,11 @@
 import './App.css';
-import ContinueWithOptions from './Components/ContinueWithOptions';
-import CreatePass from './Components/CreatePass';
-import ProfileHeader from './Components/ProfileHeader';
-import RegisterNow from './pages/RegisterNow';
+import U3_Login from "./pages/U3_Login"
 
 
 
 function App() {
   return (
-    <CreatePass />
+    <U3_Login />
   );
 }
 

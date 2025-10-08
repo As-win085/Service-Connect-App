@@ -1,7 +1,6 @@
 import "./index.css"
 import { useState } from 'react';
 import {
-  FaEnvelope,
   FaLock,
   FaEye,
   FaEyeSlash,
@@ -18,7 +17,7 @@ const CreatePass = () => {
 
     return (
         <div className="w-full max-w-screen-lg mt-6 px-4 mx-auto">
-              <h2 className="text-sm md:text-md lg:text-lg font-sm text-[#1D1F2A] mb-6 text-center">
+              <h2 className="md:text-lg mx-5 font-semibold text-sm md:text-md lg:text-lg font-sm text-[#1D1F2A] mb-6 text-center">
                 Add a Pin Number to Make Your Account More Secure
             </h2>
         
@@ -57,7 +56,7 @@ const CreatePass = () => {
                     {showConfirm ? <FaEyeSlash /> : <FaEye />}
                   </span>
                 </div>
-                <div className='w-full sm:w-2/3 md:w-1/3 mx-auto'>
+                <div className='w-full sm:w-2/3 md:w-1/3 mx-auto md:my-10'>
                     <ConfirmButton ButtonName="Sign In" />
                 </div>
               </form>
