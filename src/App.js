@@ -1,11 +1,12 @@
 import './App.css';
-import MainPageLogo from './Components/MainPageLogo';
+import ContinueWithOptions from './Components/ContinueWithOptions';
+import RegisterNow from './pages/RegisterNow';
 
 
 
 function App() {
   return (
-    <MainPageLogo />
+    <RegisterNow />
   );
 }
 
