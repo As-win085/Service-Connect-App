@@ -16,10 +16,10 @@ const CreatePass = () => {
     const ShowConfirm = () => setShowConfirm(!showConfirm);
 
     return (
-        <div className="w-full max-w-screen-lg mt-6 px-4 mx-auto">
-              <h2 className="md:text-lg mx-5 font-semibold text-sm md:text-md lg:text-lg font-sm text-[#1D1F2A] mb-6 text-center">
-                Add a Pin Number to Make Your Account More Secure
-            </h2>
+        <div className="w-full max-w-screen-lg mt-6 px-4 mx-auto min-h-screen flex flex-col justify-end md:justify-center mb-14">
+              <h1 className="md:text-lg font-bold text-sm md:text-md lg:text-lg font-sm text-[#1D1F2A] mb-6">
+                Create Your New Password
+            </h1>
         
               <form className="space-y-5 flex flex-col items-stretch">
         
