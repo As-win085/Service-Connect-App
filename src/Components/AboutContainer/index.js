@@ -1,22 +1,19 @@
-import React from 'react';
+import "./index.css"
 
 const AboutCard = () => {
   return (
     <div className='px-8 my-2 md:my-4'>
         <div className=" w-full md:w-3/4 md:2/3 md:mx-auto p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-      
-        {/* Card Header */}
+
         <h2 className="text-xl font-semibold text-indigo-900 mb-4">
             About
         </h2>
 
-        {/* About Text - First Paragraph */}
-        <p className="text-gray-600 mb-4 leading-relaxed">
+        <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-md lg:text-lg">
             Graphic Design now a popular profession graphic design by off your carrer about tantas regiones barbarorum pedibus obiit
         </p>
 
-        {/* About Text - Second Paragraph */}
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 leading-relaxed  text-sm md:text-md lg:text-lg">
             Graphic Design n a popular profession I Cur tantas regiones barbarorum pedibus obiit, maria transmi Et ne nimium beatus est; Addidisti ad extremum
             <a 
             href="#" 
