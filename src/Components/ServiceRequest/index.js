@@ -3,13 +3,14 @@ import { Calendar, Clock, ImagePlus, Plus, Edit, ArrowRight } from "lucide-react
 import ConfirmButton from "../ConfirmButton"
 import ProviderProfile from "../ProviderProfile";
 
-const ServiceRequest = () => {
+const ServiceRequest = (props) => {
+  const {BookingId} = props;
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-300 py-6">
+    <div className="flex flex-col items-center bg-gray-300">
       <div className="w-full md:w-2/3 lg:w-2/3  rounded-2xl p-5">
 
         <ProviderProfile />
-
+        <p className="text-gray-500 text-xs">{BookingId}</p>
         <div className="mb-3 bg-white px-2 text-xs md:text-sm mt-1 shadow-lg">
           <label className="block text-gray-700 text-sm mb-1">Title</label>
           <input
@@ -95,9 +96,7 @@ const ServiceRequest = () => {
           </div>
         </div>
 
-        <div className="my-2 md:my-4">
-            <ConfirmButton ButtonName="Confirm" />
-        </div>
+        
       </div>
     </div>
   );

@@ -12,11 +12,7 @@ const VideoIcon = () => (
     </svg>
 );
 
-// --- Reusable Media Card Component ---
 
-
-
-// --- Main Media and Booking Component ---
 const MediaAndBookingCard = () => {
     return (
         <div className="w-full md:w-3/4 lg:w-2/3 mx-auto p-4 space-y-4">
