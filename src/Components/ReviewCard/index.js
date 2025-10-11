@@ -28,7 +28,7 @@ const ReviewsCard = () => {
 
 
     return (
-        <div className="w-8/10 md:w-3/4 lg:w-2/3 mx-auto p-6 bg-white rounded-xl shadow-2xl">
+        <div className="w-full md:w-3/4 lg:w-2/3 mx-auto p-6 bg-white rounded-xl shadow-2xl">
             {/* Card Header (Title and See All Link) */}
             <div className="flex justify-between items-center mb-4 pb-2">
                 <h2 className="text-xl font-semibold text-gray-800">Reviews</h2>

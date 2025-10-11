@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlumberCard = () => {
   return (
-    <div className="mx-8  my-2 md:my-4 w-9/10 md:w-3/4 lg:w-2/3 md:mx-auto p-4 bg-white rounded-xl shadow-lg sm:p-6 border border-gray-100">
+    <div className="my-2 md:my-4 w-full md:w-3/4 lg:w-2/3 md:mx-auto p-4 bg-white rounded-xl shadow-lg sm:p-6 border border-gray-100">
       
       {/* Top Section: Distance and Rating */}
       <div className="flex justify-between items-center mb-2">
@@ -32,10 +32,10 @@ const PlumberCard = () => {
         {/* Videos & Images */}
         <div className="flex items-center">
           {/* Camera/Video Icon (Using a simple Unicode character or a placeholder for an actual icon like Heroicons) */}
-          <span className="mr-2 text-md md:text-lg align-middle">
+          <span className="mr-2 text-xs md:text-[10px] lg:text-lg align-middle">
             <span role="img" aria-label="video-camera">🎥</span>
           </span>
-          <span className="font-medium whitespace-nowrap text-sm  md:text-md lg:text-lg">
+          <span className="font-medium whitespace-nowrap text-xs  md:text-md lg:text-lg">
             21 videos & images
           </span>
         </div>
@@ -46,10 +46,10 @@ const PlumberCard = () => {
         {/* Services Listed */}
         <div className="flex items-center">
           {/* Clock/Service Icon (Using a simple Unicode character or a placeholder for an actual icon like Heroicons) */}
-          <span className="mr-2  text-sm  md:text-md lg:text-lg align-middle">
+          <span className="mr-2  text-xs  md:text-md lg:text-lg align-middle">
             <span role="img" aria-label="clock">🕑</span> 
           </span>
-          <span className="font-medium whitespace-nowrap  text-sm  md:text-md lg:text-lg">
+          <span className="font-medium whitespace-nowrap  text-xs  md:text-md lg:text-lg">
             2 Services listed
           </span>
         </div>

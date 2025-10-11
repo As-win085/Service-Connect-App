@@ -1,13 +1,13 @@
 import './App.css';
-import RequestItem from "./Components/MediaAndBookingCard"
-import U16_Filter from "./pages/U16_Filter"
+import RequestItem from "./Components/ScheduledCard"
+import U19_Bookings from "./pages/U19_Bookings"
 import U7_Congratulations from "./pages/U18_RequestService"
 
 
 
 function App() {
   return (
-    <RequestItem />
+    <U19_Bookings />
 
   )
 }
