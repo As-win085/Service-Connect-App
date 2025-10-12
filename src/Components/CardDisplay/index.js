@@ -3,7 +3,7 @@ import { Squares2X2Icon } from '@heroicons/react/24/solid'; // Assumed icon for 
 
 const CreditCardDisplay = ({ name, number, expiry }) => {
   return (
-    <div className="bg-black text-white p-6 rounded-xl shadow-lg w-full max-w-sm mx-auto">
+    <div className="bg-black text-white p-6 rounded-xl shadow-lg w-full max-w-md mx-auto">
       {/* Card Header (Logo/Chip) */}
       <div className="flex justify-start">
         <Squares2X2Icon className="h-8 w-8 text-white opacity-80" />

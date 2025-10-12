@@ -1,11 +1,12 @@
 import AppHeader from "../../Components/AppHeader"
-import CardPaymentForm from "../../Components/CardPaymentForm"
+import CardDisplay from "../../Components/CardDisplay"
+import CardPaymentForm from "../../Components/AddCardForm"
 
 const AddNewCard = () => {
     return (
         <div>
             <AppHeader />
-            <div>
+            <div className="my-4 md:my-8">
                 <CardPaymentForm />
             </div>
         </div>
