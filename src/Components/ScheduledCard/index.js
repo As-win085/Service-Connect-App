@@ -2,9 +2,8 @@ import React from 'react';
 
 const TapRepairBookingCard = () => {
   return (
-    // Main container with shadow, rounded corners, and the prominent left green border
-    // Added 'md:max-w-md' for responsiveness - wider on medium screens
-    <div className="relative w-full  md:w-3/4 lg:w-1/2 mx-auto bg-white rounded-2xl shadow-lg 
+ 
+    <div className="relative my-2 md:my-4 relative w-full  md:w-3/4 lg:w-1/2 mx-auto bg-white rounded-2xl shadow-lg 
                     p-4 pl-6 md:p-6 font-sans overflow-hidden"> 
       
       {/* Green Left Border */}

@@ -31,10 +31,9 @@ const ReviewSummary = ({ averageRating = 4.2, totalReviews = 674 }) => {
   const filters = ['Excellent', 'Good', 'Average', 'Below Average'];
 
   return (
-    <div className="min-h-screen bg-gray-200 flex items-start justify-center p-4 sm:p-8">
-      <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-lg sm:p-8 text-center">
-        
-        {/* Average Rating */}
+    <div className="bg-gray-300 flex items-center justify-center p-4 sm:p-8">
+      <div className="w-full p-6 rounded-xl sm:p-8 text-center">
+
         <p className="text-6xl font-extrabold text-gray-900 mb-2">
           {averageRating}
         </p>
@@ -44,7 +43,7 @@ const ReviewSummary = ({ averageRating = 4.2, totalReviews = 674 }) => {
         <p className="text-gray-600 text-lg mb-8">
           Based on {totalReviews} Reviews
         </p>
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="w-full flex items-center flex-wrap justify-center gap-3 overflow-x-auto">
           {filters.map((filter) => (
             <button
               key={filter}

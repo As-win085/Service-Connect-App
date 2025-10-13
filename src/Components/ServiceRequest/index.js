@@ -4,7 +4,7 @@ import ConfirmButton from "../ConfirmButton"
 import ProviderProfile from "../ProviderProfile";
 
 const ServiceRequest = (props) => {
-  const {BookingId} = props;
+  const {BookingId, showButton, ButtonName} = props;
   return (
     <div className="flex flex-col items-center bg-gray-300">
       <div className="w-full md:w-2/3 lg:w-2/3  rounded-2xl p-5">
@@ -15,7 +15,6 @@ const ServiceRequest = (props) => {
           <label className="block text-gray-700 text-sm mb-1">Title</label>
           <input
             type="text"
-            defaultValue="Change Bulb"
             className="w-full px-3 py-2 rounded-xl border-0  focus:ring focus:ring-indigo-300 focus:outline-none"
           />
         </div>
@@ -24,7 +23,6 @@ const ServiceRequest = (props) => {
           <label className="block text-gray-700 text-sm mb-1">Description</label>
           <textarea
             rows="3"
-            defaultValue="FIlled dfffdf sdfsfdsdfsd"
             className="w-full px-3 py-2 rounded-xl border-0 focus:ring focus:ring-indigo-300 focus:outline-none resize-none"
           />
         </div>
@@ -95,7 +93,16 @@ const ServiceRequest = (props) => {
             </div>
           </div>
         </div>
+        <div>
+          {showButton ? (
+            <ConfirmButton ButtonName="Confirm" />
+          ) : (
+            <div className="py-2 md:py-4  mx-auto flex justify-center">
+              <button className="py-2 md:py-4 text-sm md:text-md lg:text-lg bg-gray-900 rounded-full w-full max-w-sm text-white my-2 md-my-4">{ButtonName}</button>
+            </div>
+          )}
 
+        </div>
         
       </div>
     </div>
