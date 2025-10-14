@@ -2,8 +2,8 @@ import React from 'react';
 
 const ComplaintForm = () => {
   return (
-    <div className="w-full md:w-3/4 lg:w-2/3 mx-auto flex items-center justify-center p-4">
-      <div className="w-full  rounded-xl l p-6 space-y-4">
+    <div className="w-full md:w-3/4 lg:w-2/3 mx-auto flex items-center justify-center">
+      <div className="w-full  rounded-xl l  space-y-4">
 
         {/* Title Input Card */}
         <div className="p-4 bg-white border border-gray-300 rounded-lg shadow-sm">

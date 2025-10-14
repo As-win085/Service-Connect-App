@@ -4,7 +4,7 @@ const ToggleSwitch = () => {
   const [active, setActive] = useState("Ongoing");
 
   return (
-    <div className="flex rounded-full p-1 w-full md:w-1/2 lg:w-1/3 mx-auto mb-4 md:mb-6 shadow bg-gray-500">
+    <div className="flex rounded-full p-1 w-full md:w-2/3 lg:w-1/2 mx-auto mb-4 md:mb-6 shadow bg-gray-500">
       <button
         onClick={() => setActive("Ongoing")}
         className={`flex-1 text-center py-2 rounded-full font-semibold transition-all duration-300 ${

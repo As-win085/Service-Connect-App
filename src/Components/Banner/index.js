@@ -41,7 +41,7 @@ class Banner extends Component {
       <div
         role="group"
         aria-label="Distance Filter"
-        className="md:mx-auto md:m-4 mx-auto w-4/5 flex justify-center items-center bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50 max-w-lg overflow-hidden border-2 border-black-700 dark:border-black-700"
+        className="md:h-lg md:mx-auto md:m-4 mx-auto w-full md:w-3/4 lg:w-2/3 flex justify-center items-center bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50  overflow-hidden border-2 border-black-700 dark:border-black-700"
       >
         {this.segments.map((segment, index) => (
           <button

@@ -5,7 +5,7 @@ import ConfirmButton from "../ConfirmButton";
 const AppointmentCard = () => {
   return (
     
-      <div className="w-full mx-auto md:w-3/4 lg:w-2/3 bg-white rounded-2xl shadow-md my-2 md:my-4">
+      <div className="w-full mx-auto  bg-white rounded-2xl shadow-md my-2 md:my-4">
         {/* Header */}
         <div className="p-4 border-b">
           <h2 className="text-gray-700 font-semibold">Appointment</h2>
