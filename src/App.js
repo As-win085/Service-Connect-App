@@ -1,13 +1,13 @@
 import './App.css';
-import RequestItem from "./Components/BookingReceipt"
-import U19_Bookings from "./pages/U33_Services"
+import RequestItem from "./Components/UserProfileMenuBar"
+import U19_Bookings from "./pages/U36_EditProfile"
 import U7_Congratulations from "./pages/U18_RequestService"
 
 
 
 function App() {
   return (
-    <U19_Bookings />
+    <RequestItem />
 
   )
 }
