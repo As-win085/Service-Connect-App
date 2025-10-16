@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ToggleSwitch = () => {
+const ToggleSwitch = ({b1,b2}) => {
   const [active, setActive] = useState("Ongoing");
 
   return (
@@ -13,7 +13,7 @@ const ToggleSwitch = () => {
             : "text-white"
         }`}
       >
-        Ongoing
+        {b1 || "Ongoing"}
       </button>
 
       <button
@@ -24,7 +24,7 @@ const ToggleSwitch = () => {
             : "text-white"
         }`}
       >
-        Completed
+        {b2 || "Completed"}
       </button>
     </div>
   );

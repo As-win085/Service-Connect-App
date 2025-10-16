@@ -1,14 +1,13 @@
 import React from 'react';
 
-const NotificationCard = ({ title, subtitle, icon }) => {
+const NotificationCard = ({ title, subtitle, Icon }) => {
   return (
-    <div className="bg-white p-4 rounded-xl shadow-md flex items-center space-x-4 max-w-sm mx-auto">
+    <div className="bg-white p-4 rounded-xl shadow-md flex items-center space-x-4 w-full mx-auto my-2 md:my-4">
       {/* Icon Container */}
       <div className="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-700">
-        {icon ? (
-          icon
+        {Icon ? (
+          <Icon />
         ) : (
-          // Default icon if none is provided (looks like a grid/apps icon)
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
