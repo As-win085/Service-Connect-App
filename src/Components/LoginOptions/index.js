@@ -1,4 +1,4 @@
-import "./index.css"
+
 import { Phone } from "lucide-react"; 
 import googleLogo from "../../assets/Images/google.png"; 
 import { Mail } from "lucide-react";

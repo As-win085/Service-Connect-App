@@ -58,7 +58,7 @@ const LoginForm = () => {
             </div>
             <p className='text-sm font-semibold md:text-md lg:text-lg'>Forgot Password?</p>
         </div>
-        <div className='w-full sm:w-2/3 md:w-1/3 mx-auto'>
+        <div className='w-full sm:w-4/5 md:w-2/3 mx-auto'>
             <ConfirmButton ButtonName="Sign In" />
         </div>
       </form>
