@@ -42,7 +42,33 @@ const PaymentSelection = () => {
             }`}
           ></div>
         </div>
-       
+        <div
+          onClick={() => setSelected("applepay")}
+          className={`flex justify-between items-center bg-white rounded-xl shadow-sm px-5 py-4 mb-4 cursor-pointer transition-all ${
+            selected === "applepay" ? "ring-2 ring-gray-800" : ""
+          }`}
+        >
+          <span className="text-gray-800 font-semibold">Apple Pay</span>
+          <div
+            className={`w-5 h-5 rounded-full border-2 ${
+              selected === "applepay" ? "border-gray-800 bg-gray-800" : "border-gray-400"
+            }`}
+          ></div>
+        </div>
+
+        <div
+          onClick={() => setSelected("card")}
+          className={`flex justify-between items-center bg-white rounded-xl shadow-sm px-5 py-4 mb-4 cursor-pointer transition-all ${
+            selected === "card" ? "ring-2 ring-gray-800" : ""
+          }`}
+        >
+          <span className="text-gray-800 font-semibold">**** **** **76 3054</span>
+          <div
+            className={`w-5 h-5 rounded-full border-2 ${
+              selected === "card" ? "border-gray-800 bg-gray-800" : "border-gray-400"
+            }`}
+          ></div>
+        </div>
       </div>
 
       {/* Floating Plus Button */}
@@ -53,7 +79,7 @@ const PaymentSelection = () => {
       </div>
 
       {/* Bottom Button */}
-      <div className="flex justify-center items-center left-1/2 -translate-x-1/2 fixed bottom-4 w-full mx-auto max-w-sm">
+      <div className="flex justify-center items-center left-1/2 -translate-x-1/2 fixed bottom-4 w-full mx-auto max-w-sm px-8">
         <ConfirmButton ButtonName="Enroll Course - $55" />
       </div>
     </div>

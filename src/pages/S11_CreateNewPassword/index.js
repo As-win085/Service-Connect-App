@@ -1,4 +1,3 @@
-import "./index.css"
 import CreatePass from "../../Components/CreatePass"
 import ProfileHeader from "../../Components/ProfileHeader"
 
