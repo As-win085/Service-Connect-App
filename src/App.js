@@ -1,6 +1,6 @@
 import './App.css';
-import RequestItem from "./Components/RegisteredServiceList"
-import U19_Bookings from "./pages/S48_Notifications"
+import RequestItem from "./Components/BookingLists"
+import U19_Bookings from "./pages/EditService"
 import U7_Congratulations from "./pages/U18_RequestService"
 
 

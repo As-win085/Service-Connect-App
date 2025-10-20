@@ -1,72 +1,67 @@
-import ServiceItem from "../ServiceListItem"
+import ServiceItem from "../ServiceItem" 
 
-const ActiveServicesFeed = () => {
-  // Dummy data for active services items
-  const services = [
-    { 
-      id: 1, 
-      avatarSrc: 'https://via.placeholder.com/150/505050/FFFFFF?text=A', // Abstract/dark placeholder
-      service: 'Bulb change', 
-      name: 'John Abraham', 
-      timeAgo: '12 mins ago',
-      location: 'Challanam'
-    },
-    { 
-      id: 2, 
-      avatarSrc: 'https://via.placeholder.com/150/505050/FFFFFF?text=A',
-      service: 'Bulb change', 
-      name: 'John Abraham', 
-      timeAgo: '12 mins ago',
-      location: 'Challanam'
-    },
-    { 
-      id: 3, 
-      avatarSrc: 'https://via.placeholder.com/150/505050/FFFFFF?text=A',
-      service: 'Bulb change', 
-      name: 'John Abraham', 
-      timeAgo: '12 mins ago',
-      location: 'Challanam'
-    },
-    { 
-      id: 4, 
-      avatarSrc: 'https://via.placeholder.com/150/505050/FFFFFF?text=A',
-      service: 'Bulb change', 
-      name: 'John Abraham', 
-      timeAgo: '12 mins ago',
-      location: 'Challanam'
-    },
-    { 
-      id: 5, 
-      avatarSrc: 'https://via.placeholder.com/150/505050/FFFFFF?text=A',
-      service: 'Bulb change', 
-      name: 'John Abraham', 
-      timeAgo: '12 mins ago',
-      location: 'Challanam'
-    },
-  ];
+const services = [
+  {
+    id: 1,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200", // example image
+  },
+  {
+    id: 2,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200",
+  },
+  {
+    id: 3,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200",
+  },
+  {
+    id: 4,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200",
+  },
+  {
+    id: 5,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200",
+  },
+  {
+    id: 6,
+    title: "Bulb change",
+    name: "John Abraham",
+    time: "12 mins ago",
+    location: "Challanam",
+    img: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=200",
+  },
+];
 
+const ActiveServices = () => {
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 max-w-sm mx-auto">
-      {/* Header */}
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold text-gray-800">Requests</h2>
+      <div className="bg-white shadow-lg rounded-xl p-4 my-4 md:my-8 mx-auto w-full md:w-2/3 lg:w-1/2 ">
+        <h2 className="text-lg font-semibold mb-4">Requests</h2>
+        <div className="flex flex-col gap-3">
+          {services.map((each) => (
+            <ServiceItem id={each.id} title={each.title} name={each.name} location={each.location} time={each.time} img={each.img} />
+          ))}
+        </div>
       </div>
-      
-      {/* Service List */}
-      <div>
-        {services.map(item => (
-          <ServiceItem
-            key={item.id}
-            avatarSrc={item.avatarSrc}
-            service={item.service}
-            name={item.name}
-            timeAgo={item.timeAgo}
-            location={item.location}
-          />
-        ))}
-      </div>
-    </div>
   );
 };
 
-export default ActiveServicesFeed;
+export default ActiveServices;

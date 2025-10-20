@@ -20,4 +20,6 @@ const ActivityItem = ({ avatarSrc, name, activity, timeAgo }) => {
       </p>
     </div>
   );
-};
+}
+
+export default ActivityItem

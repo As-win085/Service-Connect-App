@@ -40,7 +40,7 @@ const RecentActivityFeed = () => {
   ];
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 max-w-sm mx-auto">
+    <div className="bg-white rounded-xl shadow-lg p-6 w-full md:w-2/3 lg:w-1/2 mx-auto">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-800">Recent Activity</h2>

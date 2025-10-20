@@ -56,7 +56,7 @@ const RevenueChartCard = () => {
   const totalServices = 3; 
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 max-w-sm mx-auto">
+    <div className="bg-white rounded-xl shadow-lg p-6 md:w-2/3 lg:w-1/2 mx-auto my-4 md:my-8 ">
       <h2 className="text-lg font-semibold text-gray-800 mb-6 text-center">
         Revenue by service
       </h2>
