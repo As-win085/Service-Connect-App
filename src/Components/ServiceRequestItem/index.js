@@ -29,7 +29,7 @@ const ServiceReminderCard = () => {
   ];
 
   return (
-    <div className="flex max-w-sm mx-auto shadow-xl rounded-xl overflow-hidden bg-white">
+    <div className="flex my-4 w-full md:w-2/3 lg:w-1/2 mx-auto shadow-xl rounded-xl overflow-hidden bg-white">
       <div className="w-3 bg-blue-900 flex-shrink-0"></div>
 
       <div className="p-4 flex-grow">
