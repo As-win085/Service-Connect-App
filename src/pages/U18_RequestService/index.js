@@ -1,5 +1,5 @@
 import "./index.css"
-import ServiceHeader from "../../Components/ServiceHeader"
+import ServiceHeader from "../../Components/ProfileHeader"
 import ServiceRequest from "../../Components/ServiceRequest"
 import ConfirmButton from "../../Components/ConfirmButton"
 

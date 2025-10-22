@@ -93,7 +93,7 @@ const ServiceRequest = (props) => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="my-4">
           {showButton ? (
             <ConfirmButton ButtonName="Confirm" />
           ) : (

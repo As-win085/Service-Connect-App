@@ -2,7 +2,7 @@ import "./index.css"
 
 const AboutCard = () => {
   return (
-      <div className=" w-full md:w-3/4 md:w-2/3 md:mx-auto p-6 bg-white rounded-xl shadow-lg border border-gray-100">
+      <div className=" w-full md:w-2/3 md:w-1/2 md:mx-auto p-6 bg-white rounded-xl shadow-lg border border-gray-100">
 
       <h2 className="text-xl font-semibold text-indigo-900 mb-4">
           About

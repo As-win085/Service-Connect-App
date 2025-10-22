@@ -9,7 +9,7 @@ import ConfirmButton from "../../Components/ConfirmButton"
 
 const ProviderProfile = () => {
     return (
-        <div className="bg-gray-300 mb-5">
+        <div className="bg-gray-300 pb-5">
             <ProfileHeader heading="PROFILE" />
             <ProfileBlankContainer />
             <div className="px-8">
@@ -18,7 +18,9 @@ const ProviderProfile = () => {
                 <ServiceLists />
                 <ReviewCard />
                 <MediaAndBookingCard />
-                <ConfirmButton ButtonName="Book Service" />
+                <div className="w-full max-w-md mx-auto">
+                    <ConfirmButton ButtonName="Book Service" />
+                </div>
             </div>
         </div>
     )

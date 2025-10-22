@@ -7,12 +7,16 @@ import RequestItem from "../../Components/RequestItemsContainer"
 
 const CakeDelivery = () => {
     return (
-        <div>
+        <div className="bg-gray-300 min-h-screen">
             <AppHeader heading="CAKE DELIVERY" />
-            <DeliveryLocationDetails />
-            <Banner /> 
-            <RequestItem />
-            <BottomNavbar />     
+            <div className="px-4">
+                <DeliveryLocationDetails />
+                <div className="w-full md:w-2/3 lg:w-2/3 mx-auto">
+                    <Banner /> 
+                </div>
+                <RequestItem />
+                <BottomNavbar />     
+            </div>    
         </div>
 
     )

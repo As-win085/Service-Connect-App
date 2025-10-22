@@ -4,7 +4,7 @@ import CheckBox from "../CheckBox"
 const FilterCategory = (props) => {
     const {FilterItems,heading} = props
     return (
-        <div className="my-2 md:my-4 w-full mx-4 md:mx-8">
+        <div className="my-2 md:my-4 w-full mx-4 md:mx-16">
             <h2>{heading}</h2>
             <div className="">
                 {

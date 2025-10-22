@@ -1,10 +1,10 @@
-import "./index.css"
+import ProviderPic from "../../assets/Images/ProviderProfile.png"
 
 const ProviderProfile = () => {
     return (
         <div className="flex items-center mb-5">
           <img
-            src="https://via.placeholder.com/60"
+            src={ProviderPic}
             alt="profile"
             className="w-14 h-14 rounded-full object-cover mr-3"
           />

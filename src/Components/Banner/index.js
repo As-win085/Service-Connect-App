@@ -38,10 +38,11 @@ class Banner extends Component {
       'flex-1 md:py-2 py-1 text-center transition-colors duration-200 ease-in-out font-semibold text-lg focus:outline-none text-sm';
 
     return (
-      <div
+      <div className='px-8'>
+        <div
         role="group"
         aria-label="Distance Filter"
-        className="md:h-lg md:mx-auto md:m-4 mx-auto w-full md:w-3/4 lg:w-2/3 flex justify-center items-center bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50  overflow-hidden border-2 border-black-700 dark:border-black-700"
+        className="md:h-lg md:mx-auto md:m-4 md:mx-auto w-full md:w-3/4 lg:w-2/3 flex justify-center items-center bg-white rounded-full shadow-lg shadow-gray dark:shadow-gray-900/50  overflow-hidden border-2 border-black-700 dark:border-black-700"
       >
         {this.segments.map((segment, index) => (
           <button
@@ -54,6 +55,7 @@ class Banner extends Component {
             {segment.label}
           </button>
         ))}
+      </div>
       </div>
     );
   }

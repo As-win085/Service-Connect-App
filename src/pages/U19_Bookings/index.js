@@ -5,9 +5,9 @@ import BottomNavbar from "../../Components/BottomNavbar"
 
 const Bookings = () => {
     return (
-        <div className="bg-gray-300 min-h-screen pb-5">
+        <div className="bg-gray-300 min-h-screen pb-14">
             <AppHeader heading="BOOKINGS" />
-            <div className="px-4 mx-10">
+            <div className="px-8">
                 <BookedItem />
                 <ScheduledCard />
                 <BottomNavbar />

@@ -1,4 +1,5 @@
 import MediaCard from "../MediaCard";
+import {Video} from "lucide-react"
 
 const GalleryIcon = () => (
     <svg className="w-8 h-8 w-8 h-8 md:h-12 md:w-12 lg:w-14 lg:h-14 text-gray-700" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -6,11 +7,6 @@ const GalleryIcon = () => (
     </svg>
 );
 
-const VideoIcon = () => (
-    <svg className="w-8 h-8 md:h-12 md:w-12 lg:w-14 lg:h-14 text-gray-700 stroke-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 10l4.55 3.33a.75.75 0 010 1.34L15 18M3 8V6a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2v-2m10-7l-4 4-4-4" />
-    </svg>
-);
 
 
 const MediaAndBookingCard = () => {
@@ -25,7 +21,7 @@ const MediaAndBookingCard = () => {
 
             <MediaCard 
                 title="Images" // Keeping the title as per the image, though it contains video icons
-                IconComponent={VideoIcon} 
+                IconComponent={Video} 
                 count={8} // 4 columns x 2 rows
             />
 

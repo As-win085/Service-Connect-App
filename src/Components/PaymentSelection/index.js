@@ -53,7 +53,7 @@ const PaymentSelection = () => {
       </div>
 
       {/* Bottom Button */}
-      <div className="flex justify-center items-center left-1/2 -translate-x-1/2 fixed bottom-4 w-full mx-auto max-w-sm">
+      <div className="px-8 flex justify-center items-center left-1/2 -translate-x-1/2 fixed bottom-4 w-full mx-auto max-w-md">
         <ConfirmButton ButtonName="Enroll Course - $55" />
       </div>
     </div>

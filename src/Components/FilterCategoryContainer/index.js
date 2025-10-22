@@ -5,7 +5,7 @@ const categoryItem = ["xxxxxxx", "xxxxxxx","xxxxxxx","xxxxxxx","xxxxxxx","xxxxxx
 
 const FilterCategoryContainer = () => {
     return (
-        <div className="mx-8 md:w-1/2 lg:w-1/3 my-4 md:my-6 flex flex-col justify-center">
+        <div className="mx-8 md:w-2/3 lg:w-1/2 md:mx-auto my-4 md:my-6 flex flex-col justify-center">
             <div className="flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-3 justify-center">
                 <FilterCategory heading="SubCategories:" FilterItems={categoryItem} />
                 <FilterCategory heading="xxxxxx:" FilterItems={categoryItem} />

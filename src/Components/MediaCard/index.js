@@ -8,7 +8,7 @@ const MediaCard = ({ title, IconComponent, count }) => {
             <div className="grid grid-cols-4 gap-4 md:grid-cols-6 md:gap-6 lg:grid-cols-8 lg:gap-8">
                 {icons.map((_, index) => (
                     <div key={index} className="flex justify-center items-center p-2">
-                        <IconComponent />
+                        <IconComponent className="h-10 w-10" />
                     </div>
                 ))}
             </div>

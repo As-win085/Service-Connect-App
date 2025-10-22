@@ -75,7 +75,7 @@ const categoryList = [
 
 const CategoryItemsContainer = () => {
   return (
-    <div className="py-5 md:py-12 bg-gray-300 flex flex-wrap justify-center p-2 md:p-4 lg:p-6 min-h-screen">
+    <div className="py-5 md:py-12 bg-gray-300 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:cols-8 justify-center p-2 md:p-4 lg:p-6">
         {
             categoryList.map(each => <CategoryItem name={each.name} imgUrl={each.ImgUrl} />)
                 
