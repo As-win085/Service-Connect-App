@@ -7,9 +7,9 @@ const ActiveServices = () => {
     return (
         <div className="bg-gray-300 min-h-screen">
             <AppHeader heading="JOBS" />
-            <div className="">
+            <div className="pt-4 pb-14 px-8">
                 <ToggleSwitch b1="Ongoing" b2="Completed" />
-                <OngoingJobLists />
+                <OngoingJobLists /> 
                 <BottomNavbar />
             </div>
         </div>
