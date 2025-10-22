@@ -1,6 +1,6 @@
 import './App.css';
 import RequestItem from "./Components/AlertModal"
-import U19_Bookings from "./pages/S31_ServiceDetails"
+import U19_Bookings from "./pages/S39_AdsManagement"
 import U7_Congratulations from "./pages/U18_RequestService"
 
 

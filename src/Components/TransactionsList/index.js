@@ -46,7 +46,7 @@ const TransactionsList = () => {
   );
 
   return (
-    <div className="w-full max-w-md">
+    <div className="w-full mx-auto md:w-2/3 lg:w-1/2 py-8">
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold text-gray-800">

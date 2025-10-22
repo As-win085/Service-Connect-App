@@ -1,15 +1,15 @@
-import React from 'react';
+import FranchisePicture from "../../assets/Images/FranchiseePicture.jpg"
 
 const FranchiseeProfile = () => {
   return (
     // Outer container for the entire page, setting a light grey background
-    <div className="min-h-screen bg-gray-100 pb-8">
+    <div className="">
       
       {/* --- Image Carousel/Header Section --- */}
-      <div className="relative h-64 overflow-hidden rounded-b-2xl shadow-lg">
+      <div className="relative h-64 md:h-84 lg:h-96 overflow-hidden rounded-b-2xl shadow-lg">
         {/* Main image - leave src blank as requested */}
         <img 
-          src="" 
+          src={FranchisePicture}
           alt="Franchisee Banner" 
           className="w-full h-full object-cover"
         />

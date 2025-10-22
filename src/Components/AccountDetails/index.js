@@ -3,7 +3,7 @@ import React from 'react';
 const FinanceDashboard = () => {
   return (
     // Outer container for the entire dashboard, setting a light grey background
-    <div className="flex flex-col items-center bg-gray-200 min-h-screen p-6">
+    <div className="flex flex-col items-center">
       
       {/* --- User Welcome Section --- */}
       <div className="flex items-center w-full max-w-md mb-8">
